@@ -1,0 +1,15 @@
+{
+  "ModuleId": "com.fgbbridge.babble",
+  "ModuleName": "Project Babble",
+  "AuthorName": "Aqamoe (光水)",
+  "Version": "0.1.0",
+  "ModuleDescription": "接收 Project Babble / Baballonia 的 OSC over UDP（默认 127.0.0.1:8888），输出 Unified Expressions 表情、舌头与逐眼方向。不需要 VRCFT，不注入进程。",
+  "UsageInstructions": "1. 在 Baballonia 的输出版块启用 VRCFT/OSC 输出，目标地址填本机 IP（同机用 127.0.0.1），发送端口与下方 port 一致（默认 8888）。2. 关闭 VRCFaceTracking，它和本模块抢同一个 UDP 端口。3. 在 FGB「模块」页把 Project Babble 设为启动并重启引擎。上游 VRCFT-Babble 已归档，本实现基于活跃的 Baballonia 输出协议，社区未验证。",
+  "ModulePageUrl": "https://github.com/Aqamoe/FGB-BabbleModule",
+  "ModuleIcon": "icon.svg",
+  "DllFileName": "babble.dll",
+  "AbiVersion": 2,
+  "Capabilities": ["expression", "eyes"],
+  "RoleHint": "expression",
+  "Upstream": "Project-Babble/Baballonia (MIT)"
+}

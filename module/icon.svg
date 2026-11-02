@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Project Babble">
+  <title>Project Babble</title>
+  <desc>对话气泡带嘴部追踪点，透明背景，单色在中性灰度下对深色与浅色主题都可读。</desc>
+  <g fill="none" stroke="#8C97AC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 20 h80 a10 10 0 0 1 10 10 v44 a10 10 0 0 1 -10 10 h-42 l-18 16 v-16 h-20 a10 10 0 0 1 -10 -10 v-44 a10 10 0 0 1 10 -10 z" />
+    <circle cx="42" cy="46" r="4" />
+    <circle cx="86" cy="46" r="4" />
+    <path d="M40 66 c8 10 40 10 48 0" />
+    <path d="M64 66 v10" />
+    <circle cx="64" cy="46" r="2.5" />
+  </g>
+</svg>
